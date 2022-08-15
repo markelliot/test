@@ -6,6 +6,7 @@ jobs:
     name: Required Reviews
     runs-on: ubuntu-latest
     steps:
-      - uses: theoremlp/required-reviews@v1
+      - name: required-reviewers
+        uses: theoremlp/required-reviews@develop
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
