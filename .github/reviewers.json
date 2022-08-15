@@ -1,0 +1,10 @@
+{
+    "reviewers": {
+        ".github": {
+            "users": [
+                "markelliot"
+            ],
+            "requiredApproverCount": 1
+        }
+    }
+}

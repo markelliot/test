@@ -1,0 +1,10 @@
+name: Required Reviews
+on:
+  pull_request: {}
+jobs:
+  autosquash:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: theoremlp/required-reviews@develop
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
